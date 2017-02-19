@@ -3,19 +3,36 @@
 <head>
 <title>SpaceBear.io</title>
 <link rel="icon" type="image/png" href="favico.png">
+<link href="minimal.v1.css" rel="stylesheet" type="text/css">
 <style>
 body {
 	width:100vw;
 	height:100vh;
-	background-image:url("bear.png");
-	background-position:center center;
-	background-repeat:no-repeat;
 	overflow:hidden;
 	margin:0;
 	padding:0;
+	font-family: sans-serif;
+	color: darkgray;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-image:url("bear.png");
+}
+a {
+	color:#ff6400;
+	text-decoration:none;
+}
+.contact {
+	bottom:0;
+	width:100vw;
+	font-weight: bold;
+	padding: 10vh 0;
 }
 </style>
 </head>
 <body>
+	<div class="contact absolute center">
+		Contact: <a href="mailto:info@spacebear.io">info@spacebear.io</a>
+	</div>
+</div>
 </body>
 </html>
